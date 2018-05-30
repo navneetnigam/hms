@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="margin-bottom: 51px;">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+     <a class="navbar-brand" href="index.php"><i class="fa fa-user-plus"></i> BIET Hospital</a>
+     <li><a href="#aboutus">About Us</a></li>
+      <li><a href="appointment.php">Appointment</a></li>
+      <li><a href="login.php">Admin's Portal</a></li>
+      
+      <li><a href="doctor_login.php">Doctor's Portal</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#contactus"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+ </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+       <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/h1.jpg" alt="Los Angeles" style="width:100%;">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/h2.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+        </div> 
+      </div>
+       <div class="item">
+        <img src="images/h3.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+        </div> 
+      </div>
+       <div class="item">
+        <img src="images/h4.jpg" alt="Chicago" style="width:100%;">
+        <div class="carousel-caption">
+        </div> 
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <hr>
+  <p id="aboutus" class="text-center" style="font-size: 50px; ">About Us <hr><p>
+    <p style="color: blue; font-size: 30px; margin-left: 150px">What We do </p>
+    <p class="text-justify" style="margin-left: 150px; margin-right: 150px; font-size: 16px; ">In addition to offering traditional and established medical care services, Strong is distinguished with its tertiary and quaternary services. This means Strong has the personnel and facilities to provide advanced medical inquiry and treatments that are not widely accessible in this region. Whether a patient is coming in for a routine or a specialized procedure, they will always benefit from Strong’s unique ability to quickly implement the newest discoveries and advancements in medicine. A few of Strong’s many highly specialized services include:</p>
+    <ul style="font-size: 16px; margin-left: 150px; list-style:">
+      <li>Organ Transplant</li>
+      <li>Trauma and Burn Care</li>
+      <li>Neonatal Intensive Care Unit</li>
+      <li>Comprehensive Neuromedicine</li>
+      <li>Complex Cardiology</li>
+      <li>Cancer Service</li>
+    </ul>
+  <p class="text-justify" style="margin-left: 150px; margin-right: 150px; font-size: 16px;"> Many of Strong’s specialty programs consistently rank among “America’s Best Hospitals” and earned top honors in the first-ever “Best Regional Hospitals” 2010-11 ranking according to U.S. News & World Report. With 739 beds, most patients come from Monroe County but over 35 percent come from surrounding counties in the Upstate New York and Finger Lakes area </p><br>
+   <p style="color: blue; font-size: 30px; margin-left: 150px">How We Do It</p>
+   
+    <p class="text-justify" style="margin-left: 150px; margin-right: 150px; font-size: 16px; ">Strong is an exemplary teaching hospital with advanced scientific proficiencies, robust patient care services, and formidable community relations. These qualities and the dedicated staff who support them are precisely what elevate Strong’s reputation. As a teaching hospital, all of Strong’s medical clinicians are clinician scholars with faculty appointments (at the University of Rochester School of Medicine and Dentistry) who supervise residents and participate in the education of residents and students. The result is a learning environment immersed in research, education, community, and innovation—Medicine of the Highest Order. <br><br> Strong is also characterized by having medical clinicians who are comfortable working with many other specialists in an interdisciplinary, team-based environment. Familiarity and ease with this level of collaboration allows staff to harness the powerful interaction of three distinct but interrelated missions: research, education, and patient care. The fruit of this interaction is found in not only how clinicians teach but also how they practice. Indeed, all of Strong’s staff is committed to consistently delivering a high quality patient experience. This includes working to build partnerships with patients and their families along with identifying ways to empower patients with information and the tools they need to make informed decisions about their health care.</p>
+    <hr>
+     <p id="contactus" class="text-center" style="font-size: 50px; "><u>Contact Us</u> <hr><p>
+     <div class="cotainer-fluid">
+        <div class="col-lg-2" style="margin-left: 3%;margin-right:3%;height:auto">
+          <div class="media">
+              <div class="media-left">
+                <!-- <img src="#" class="media-object" alt="rishabh" /> -->
+            </div>
+              <div class="media-body">
+                <h4 class="text-center text-default"  style="color:purple">Rishabh Agarwal </h4><br>
+                <h4 class ="text-center">+91 8307856082</h4>
+
+              </div>
+              </div>
+        </div>
+        <div class="col-lg-2"  style="margin-left:3%;margin-right: 3%; margin-bottom: 50px ;height:auto">
+          <div class="media">
+
+              <div class="media-left">
+                <!-- <img src="#" class="media-object" alt="rishabh" /> -->
+            </div>
+              <div class="media-body">
+                <h4 class="text-center text-default" style="color:purple">Vasim Ahmad</h4><br>
+                 <h4 class ="text-center">+91 7599307227</h4>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-2" style="margin-left:3%;margin-right:5%;height:auto">
+          <div class="media">
+          <div class="media-left">
+            <!-- <img src="#" class="media-object" alt="rishabh" /> -->
+            </div>
+              <div class="media-body">
+                <h4 class="text-center text-default" style="color:purple">Navneet Singh Nigam </h4><br>
+                 <h4 class ="text-center">+91 7536080454</h4>
+                
+              </div>
+              </div>
+            </div>
+              <div class="col-lg-2" style="margin-left:3%;margin-right:5%; height:auto">
+          <div class="media">
+          <div class="media-left">
+            <!-- <img src="#" class="media-object" alt="rishabh" /> -->
+            </div>
+              <div class="media-body">
+                <h4 class="text-center text-default" style="color:purple">Sandeep Bharati </h4><br>
+                 <h4 class ="text-center">+91 9319613182</h4>
+                
+              </div>
+              </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+</html>
