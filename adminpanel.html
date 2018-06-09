@@ -51,8 +51,8 @@ if(/^[a-zA-Z]*$/g.test(document.myform.contact.value) ||con == null || con.lengt
 	<div class="col-md-3">
 		<div class="list-groups">
 			<a class="list-group-item active" style="background-color: #3498DB; color:fffff;">Patients</a>
-			<a href ="patientdetails.php" class="list-group-item">Patient Details</a>
-			<a href="discharge.php" class="list-group-item">Delete Appointment</a>
+			<a href ="patientdetails.html" class="list-group-item">Patient Details</a>
+			<a href="discharge.html" class="list-group-item">Delete Appointment</a>
 
 	
 		
@@ -69,7 +69,7 @@ if(/^[a-zA-Z]*$/g.test(document.myform.contact.value) ||con == null || con.lengt
 			</div>
 			<div class="card-body">
 				
-	          <form class="form-group" action="patient_reg.php"  name="myform" onsubmit ="return validateform()" method="post">
+	          <form class="form-group" action="patient_reg.html"  name="myform" onsubmit ="return validateform()" method="post">
 	          	<label>First Name :</label><br>
 	          	<input type="text" name="fname" class="form-control"><br>
 	          	<label>Last Name :</label><br>
@@ -88,7 +88,7 @@ if(/^[a-zA-Z]*$/g.test(document.myform.contact.value) ||con == null || con.lengt
 	          	<input type="date" name="apdate" value="Enter Appointment">
 	          	<br><br>
 	          	<input type="submit" class="btn btn-primary" name="pat_submit" value="Enter Appointment">
-	          <a href="index.php">	<input type="button" class="btn btn-primary"  value="Home"></a>
+	          <a href="index.html">	<input type="button" class="btn btn-primary"  value="Home"></a>
 	          	
 	          </form>			
 
