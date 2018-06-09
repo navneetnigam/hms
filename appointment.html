@@ -58,7 +58,7 @@ if(/^[a-zA-Z]*$/g.test(document.myform.contact.value) ||con == null || con.lengt
 		<div class="row">
 		<div class="col-md-3" style="margin-top: 12px; margin-left: 10px; margin-right: 60px;"><h4>Search Appointment</h4></div>
 		<div class="col-md-8">
-			<form class="form-group" action="patient_search.php" method="post">
+			<form class="form-group" action="patient_search.html" method="post">
 			<div class="row">	
 				<div class="col-md-8" style="margin-top: 10px; margin-left:10px"><input type="text" name="search" class="form-control" placeholder="Enter Name" ></div>
 				
@@ -85,7 +85,7 @@ if(/^[a-zA-Z]*$/g.test(document.myform.contact.value) ||con == null || con.lengt
 			</div>
 			<div class="card-body">
 				
-	          <form class="form-group" action="patient_reg.php" method="post" name="myform" 
+	          <form class="form-group" action="patient_reg.html" method="post" name="myform" 
 	          onsubmit="return validateform()" >
 	          	<label for="fname">First Name :</label><br>
 	          	<input type="text" name="fname" class="form-control" id="fname"><br>
@@ -106,7 +106,7 @@ if(/^[a-zA-Z]*$/g.test(document.myform.contact.value) ||con == null || con.lengt
 	          	<input type="date" name="apdate" value="Enter Appointment" required>
 	          	<br><br>
 	          	<input type="submit" class="btn btn-primary" name="pat_submit" value="Enter Appointment">
-	          <a href="index.php">	<input type="button" class="btn btn-primary"  value="Home"></a>
+	          <a href="index.html">	<input type="button" class="btn btn-primary"  value="Home"></a>
 	          	
 	          </form>	
 		</div>	
