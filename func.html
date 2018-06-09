@@ -8,12 +8,12 @@ $query="select * from logintb where username='$username' and password='$password
 $result=mysqli_query($con,$query);
 if(mysqli_num_rows($result)==1)
 {
-header("Location:adminpanel.php");
+header("Location:adminpanel.html");
 }
 else
 {
         echo "<script>alert('Enter Correct details.')</script>";
-    	echo "<script>window.open('doctor_login.php','_self')</script>";
+    	echo "<script>window.open('doctor_login.html','_self')</script>";
     	
 }
 }
@@ -26,19 +26,19 @@ $result=mysqli_query($con,$query);
 if(mysqli_num_rows($result)==1)
 {
 	if($username=='sharma'){
-header("Location:doctor_portal.php");
+header("Location:doctor_portal.html");
 }
 elseif ($username=='shetty') {
-	header("Location:doctor_login_shetty.php");
+	header("Location:doctor_login_shetty.html");
 }
 else
- echo "<script>window.open('doctor_login.php','_self')</script>";
+ echo "<script>window.open('doctor_login.html','_self')</script>";
 }
 
 else
 {
         echo "<script>alert('Enter Correct details.')</script>";
-    	echo "<script>window.open('doctor_login.php','_self')</script>";
+    	echo "<script>window.open('doctor_login.html','_self')</script>";
     	
 }
 }
@@ -150,12 +150,12 @@ if(isset($_POST['patient_discharge']))
 	{
 		// echo"<script>window.open('patient_reg.php','_self')</script>";
 		echo"<script>alert('Record Deleted Successfully')</script>";
-		echo"<script>window.open('discharge.php','_self')</script>";
+		echo"<script>window.open('discharge.html','_self')</script>";
 
 	}
 	else{
 		 echo "<script>alert('Enter Correct details.')</script>";
-		 echo"<script>window.open('discharge.php','_self')</script>";
+		 echo"<script>window.open('discharge.html','_self')</script>";
 	}
 }
 
